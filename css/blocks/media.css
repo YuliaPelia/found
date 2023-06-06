@@ -1,0 +1,135 @@
+@media (min-width: 320px) {
+    .container {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+
+    .preview_content {
+        width: 90%;
+    }
+
+    .preview_example {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .preview_example ul {
+        gap: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+
+    .preview_content {
+        max-width: 90%;
+        margin: 0;
+    }
+
+    .preview_content h1 {
+        text-align: left;
+        font-size: 44px;
+        line-height: 53px;
+    }
+
+    .mobile {
+        display: none;
+
+    }
+
+    .desctop {
+        display: block;
+    }
+
+    .preview_descr {
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .preview_form button span {
+        display: block;
+    }
+
+    .preview_form button {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+
+    .preview_content {
+        max-width: 460px;
+    }
+
+    .preview_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .preview_img {
+        margin: 0;
+        width: 50%;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .header_menu {
+        position: static;
+        width: auto;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 0;
+        flex-direction: row;
+    }
+
+    .header_items a {
+        font-size: 16px;
+    }
+
+    .header_list {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .header_box {
+        flex-direction: row;
+        gap: 35px;
+    }
+
+    .header_left-block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header_menu {
+        gap: 160px;
+    }
+
+    .desctop_box {
+        display: flex;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}

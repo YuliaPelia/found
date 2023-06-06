@@ -3,25 +3,30 @@
     padding: 15px 15px 35px 15px;
 }
 
+.preview_content {
+    width: 100%;
+    margin: 0 auto;
+}
+
 .preview_content h1 {
     font-weight: 900;
     font-size: 24px;
     line-height: 29px;
     text-align: center;
-
-    /* Text/Primary */
-    width: 290px;
     color: #111238;
 
 }
 
-.promo_descr {
+.preview_descr {
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
     text-align: center;
-    width: 290px;
     color: #111238;
+}
+
+.desctop {
+    display: none;
 }
 
 .preview_form {
@@ -100,7 +105,7 @@
 
 .preview_img {
     margin: 50px auto 0;
-    width: 252px;
+    width: 90%;
 }
 
 .preview_img img {
