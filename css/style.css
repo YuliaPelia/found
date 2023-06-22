@@ -1,9 +1,16 @@
 @import './blocks/header.css';
 
 @import './blocks/preview.css';
+@import './blocks/categories.css';
+
 @import './blocks/media.css';
 
 * {
     font-family: 'Fira Sans',
         sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
 }
