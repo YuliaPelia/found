@@ -17,13 +17,7 @@
 
 }
 
-.preview_descr {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-    text-align: center;
-    color: #111238;
-}
+
 
 .desctop {
     display: none;
@@ -31,49 +25,7 @@
 
 .preview_form {
     margin-top: 50px;
-    box-sizing: border-box;
-    padding: 10px 10px 10px 25px;
-    display: flex;
-    justify-content: space-between;
-    background: #FFFFFF;
-    border: 1px solid rgba(209, 209, 209, 0.1);
-    box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
-    border-radius: 5px;
-}
 
-.preview_form>input {
-    padding: 0;
-    border: none;
-    outline: none;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-
-    /* Inputs/Grey */
-
-    color: #B2B2B2;
-}
-
-.preview_form>button {
-    background: #1A75E8;
-    border-radius: 5px;
-    padding: 15px 30px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-
-    color: #FFFFFF;
-    border: none;
-    cursor: pointer;
-    transition: 0.5s linear;
-}
-
-.preview_form>button span {
-    display: none;
-}
-
-.preview_form>button:hover {
-    background-color: #111238;
 }
 
 .preview_example {

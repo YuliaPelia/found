@@ -3,12 +3,7 @@
 
 }
 
-.categories_title {
-    color: var(--text-primary, #111238);
-    font-size: 24px;
-    font-weight: 700;
-    text-align: center;
-}
+
 
 .categories_list button {
     padding: 35px 55px;

@@ -1,16 +1,9 @@
+@import "./blocks/variables.css";
 @import './blocks/header.css';
 
 @import './blocks/preview.css';
 @import './blocks/categories.css';
-
+@import "./blocks/vacancies.css";
+@import "./blocks/subscribe.css";
+@import "./blocks/footer.css";
 @import './blocks/media.css';
-
-* {
-    font-family: 'Fira Sans',
-        sans-serif;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}

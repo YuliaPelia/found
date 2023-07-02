@@ -1,0 +1,25 @@
+.subscribe {
+    background: #F2F3F6;
+    padding: 70px 0;
+}
+
+.subscribe_content {
+    padding: 0 16px;
+}
+
+.subscribe_title {
+    text-align: center;
+}
+
+
+
+.descr_desctop {
+    display: none;
+}
+
+.subscribe_form {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 55px;
+
+}

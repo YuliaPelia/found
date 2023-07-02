@@ -1,0 +1,115 @@
+.vacancies {
+    padding: 50px 0;
+}
+
+.vacancies_item {
+    border-radius: 10px;
+    border: 1px solid #C5C9D4;
+    display: flex;
+    width: 290px;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-sizing: border-box;
+}
+
+.vacancies_list {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.vacancies_item_title {
+    color: #111238;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.vacancies_item_subtitle {
+    color: #111238;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.8;
+}
+
+.vacancies_item_price {
+    border-radius: 5px;
+    background: #1A75E8;
+    padding: 10px 25px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+
+.vacancies_item_wrapper-title {
+    color: #B2B2B2;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.vacancies_item_wrapper-item {
+    color: #B2B2B2;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px;
+    border: 1px solid #B2B2B2;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.vacancies_item_wrapper-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.vacancies_link {
+    color: #1A75E8;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.vacancies_link i {
+    font-size: 11px;
+}
+
+.vacancies_btn {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #1A75E8;
+    padding: 15px 30px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    margin-top: 30px;
+
+}
